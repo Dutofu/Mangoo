@@ -1,0 +1,224 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer {
+  padding: 45px;
+  background-color: #B2D234;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.footer .footer-info {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footer-info h1 {
+  margin: 10px;
+}
+
+.vertbleu {
+  width: 100%;
+  height: 100vh;
+  background: url("img/louis-hansel-MlPD-AzZYMg-unsplash.png");
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.vertbleu h1 {
+  font-size: 50px;
+}
+.vertbleu .vb {
+  margin: 200px;
+  padding: 40px;
+  width: 50vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.vertbleu .vb div {
+  display: flex;
+  gap: 60px;
+}
+.vertbleu .vb div li {
+  margin: 15px;
+}
+.vertbleu .vert {
+  background-color: rgba(179, 210, 52, 0.8156862745);
+}
+.vertbleu .bleu {
+  background-color: rgba(96, 160, 216, 0.8);
+}
+
+.salade {
+  width: 100%;
+  height: 100vh;
+  background: url("img/élément-1.png");
+  overflow: hidden;
+}
+.salade div {
+  width: 400px;
+  position: relative;
+  left: 10%;
+  top: 20%;
+}
+.salade div h1 {
+  color: #B2D234;
+  font-size: 45px;
+}
+.salade div p {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.salade div .salade-texte {
+  margin: 30px 0;
+}
+.salade div button {
+  background-color: #B2D234;
+  padding: 20px 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+}
+.salade img {
+  position: relative;
+  top: -30vh;
+  left: 50%;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(33deg, rgba(96, 160, 216, 0.4941176471), rgba(179, 210, 52, 0.4784313725)), url("img/Header back.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.header .navbar div {
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header .navbar div button {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: none;
+  color: #B2D234;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.header .titre-mongoo {
+  align-self: center;
+}
+.header .titre-mongoo h1 {
+  font-size: 150px;
+}
+.header .titre-mongoo h2 {
+  font-size: 40px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: rotate(-20deg);
+}
+.header .logo-socialink {
+  margin: 20px;
+  align-self: flex-end;
+}
+
+.pates {
+  width: 100%;
+  height: 100vh;
+  background: url("img/ismael-trevino-NDyuR4Huig8-unsplash.png");
+  background-size: cover;
+  color: white;
+}
+.pates .pates-contenu {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  background-color: rgba(179, 210, 52, 0.8156862745);
+  width: 40%;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.pates .pates-contenu div p {
+  margin: 20px;
+}
+.pates button {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: none;
+  color: #B2D234;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.partage {
+  width: 100%;
+  height: 140vh;
+  background: url("img/élément-1.png");
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.partage img {
+  position: relative;
+  top: 15vh;
+  width: 1000px;
+  height: 1000px;
+}
+.partage div {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.partage div h1 {
+  font-size: 45px;
+  color: #B2D234;
+}
+.partage div p {
+  font-size: 20px;
+}
+.partage div button {
+  background-color: #B2D234;
+  padding: 20px 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
